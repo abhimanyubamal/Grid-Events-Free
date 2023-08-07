@@ -17,27 +17,27 @@
                     <h2 class="font-poppins font-size-36 fw-700 text-color-1">Events<span
                             class="text-color-2">Free</span></h2>
                 </div>
-                <div class="row align-center">
-                    <ul class="row align-center">
-                        <li class="mr-60 font-size-16 fw-400 font-poppins">HOME</li>
-                        <li class="mr-60 font-size-16 fw-400 font-poppins">EVENTS</li>
-                        <li class="mr-60 font-size-16 fw-400 font-poppins">FEED</li>
-                        <li class="mr-60 font-size-16 fw-400 font-poppins">USERNAME</li>
-                        <button class="mr-60 font-size-16 fw-600 font-poppins b1">Log Out</button>
-                    </ul>
+                <input type="checkbox" id="menu-btn" class="menu-btn" hidden>
+                <label for="menu-btn" class="menu-icon"><span></span></label>
+                <div class="row align-center menu">
+                    <a class="mr-60 font-size-16 fw-400 font-poppins" href="">HOME</a>
+                    <a class="mr-60 font-size-16 fw-400 font-poppins" href="">EVENTS</a>
+                    <a class="mr-60 font-size-16 fw-400 font-poppins" href="">FEED</a>
+                    <a class="mr-60 font-size-16 fw-400 font-poppins" href="">USERNAME</a>
+                    <button class="mr-60 font-size-16 fw-600 font-poppins b1">Log Out</button>
                 </div>
             </nav>
             <div class="row mt-65">
                 <div class="col-3">
-                    <img class="w-100 header-img" src="./assets/images/header-image (2).png" alt="header-image">
+                    <img class="w-100 h-md-100 header-img" src="./assets/images/header-image (2).png" alt="header-image">
                 </div>
                 <div class="col-9">
                     <div>
                         <p class="font-size-16 fw-400 font-poppins">Home > Username</p>
-                        <div class="row align-center">
+                        <div class="row align-center justify-between">
                             <h3 class="font-size-48 fw-600 font-poppins">John Doe</h3>
-                            <div>
-                                <button class="b1 font-size-16 fw-600 ml-100">Unshow Journey of Feed</button>
+                            <div class="row align-center justify-end justify-md-center">
+                                <button class="b1 font-size-16 fw-600 ">Unshow Journey of Feed</button>
                                 <button class="b1 font-size-16 fw-600">Show Journey of Feed</button>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="row mt-130">
-                <div class="col-7">
+                <div class="col-7 col-lg-12">
                     <span class="block mt-16">
                         <svg width="118" height="98" viewBox="0 0 118 98" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -157,7 +157,7 @@
                         urna faucibus viverra
                         vulputate.</p>
                 </div>
-                <div class="col-5">
+                <div class="col-5 col-lg-12">
                     <img src="./assets/images/header-img-2.png" alt="header-img-2" class="w-100 header-img">
                 </div>
             </div>
@@ -171,22 +171,22 @@
                 <h3 class="font-size-48 fw-600 font-poppins">GALLERY</h3>
             </div>
             <div class="d-grid">
-                <div class="g-item item1">
+                <div class="g-item item1 item-lg-1">
                     <img src="./assets/images/grid-1.png" alt="">
                 </div>
-                <div class="g-item item2">
+                <div class="g-item item2 item-lg-2">
                     <img src="./assets/images/grid-2.png" alt="">
                 </div>
-                <div class="g-item item3">
+                <div class="g-item item3 item-lg-3">
                     <img src="./assets/images/grid-3.png" alt="">
                 </div>
-                <div class="g-item item4">
+                <div class="g-item item4 item-lg-4">
                     <img src="./assets/images/grid-4.png" alt="">
                 </div>
-                <div class="g-item item5">
+                <div class="g-item item5 item-lg-5">
                     <img src="./assets/images/grid-5.png" alt="">
                 </div>
-                <div class="g-item item6">
+                <div class="g-item item6 item-lg-6">
                     <img src="./assets/images/grid-6.png" alt="">
                 </div>
             </div>
@@ -208,16 +208,16 @@
                     dolor fringilla urna
                     eget aliquet.</p>
             </div>
-            <div class="row card-1 w-100 justify-between mt-47">
+            <div class="row card-1 w-100 justify-between mt-47 align-center">
                 <div class="col-1">
-                    <img class="w-100 h-100" src="./assets/images/round-1.png" alt="">
+                    <img class="w-100 " src="./assets/images/round-1.png" alt="">
                 </div>
                 <div class="col-8">
                     <input type="text" id="new-comment" placeholder="Add a new comment"
                         class="new-comment w-100 h-100 font-poppins font-size-20 fw-400">
                 </div>
                 <div class="col-3">
-                    <button class="w-100 h-100 b3 font-poppins fw-600 font-size-20">Post Comment</button>
+                    <button class="w-100 h-100 b3 font-poppins fw-600 font-size-20 font-md-size-12">Post Comment</button>
                 </div>
             </div>
             <div class="row w-100 align-center mt-47">
@@ -392,18 +392,18 @@
     <footer class="bg-black text-white pt-80 pb-25">
         <div class="container">
             <div class="row">
-                <div class="col-5">
-                    <div class="row align-center">
+                <div class="col-5 col-md-12 justify-md-center">
+                    <div class="row align-center justify-md-center">
                         <img src="./assets/images/events-free-icon.png" alt="events-free-icon">
                         <h2 class="font-poppins font-size-36 fw-700 text-color-1">Events<span
                                 class="text-color-2">Free</span></h2>
                     </div>
-                    <div class="row w-60 mt-38">
-                        <p class="font-size-14 fw-400 font-poppins">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    <div class="row w-60 mt-38 justify-md-center w-md-100">
+                        <p class="font-size-14 fw-400 font-poppins text-md-center">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus
                             ipsum sem. c</p>
                     </div>
-                    <div class="row w-20 justify-around mt-24">
+                    <div class="row w-20 justify-around mt-24 w-md-100 justify-md-around">
                         <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M11.2 6.06667C10.1847 6.06667 9.19225 6.36773 8.34807 6.93179C7.5039 7.49585 6.84595 8.29756 6.45742 9.23556C6.06889 10.1736 5.96723 11.2057 6.1653 12.2015C6.36337 13.1972 6.85228 14.1119 7.57018 14.8298C8.28809 15.5477 9.20277 16.0366 10.1985 16.2347C11.1943 16.4328 12.2264 16.3311 13.1644 15.9426C14.1024 15.5541 14.9042 14.8961 15.4682 14.0519C16.0323 13.2078 16.3333 12.2153 16.3333 11.2C16.3318 9.83903 15.7905 8.53424 14.8281 7.57189C13.8658 6.60954 12.561 6.06821 11.2 6.06667ZM11.2 15.4C10.3693 15.4 9.55729 15.1537 8.86661 14.6922C8.17592 14.2307 7.63759 13.5747 7.31971 12.8073C7.00182 12.0398 6.91864 11.1953 7.0807 10.3806C7.24276 9.5659 7.64277 8.81753 8.23015 8.23015C8.81753 7.64277 9.5659 7.24276 10.3806 7.0807C11.1953 6.91864 12.0398 7.00182 12.8073 7.31971C13.5747 7.63759 14.2307 8.17592 14.6922 8.86661C15.1537 9.55729 15.4 10.3693 15.4 11.2C15.3988 12.3135 14.9559 13.3811 14.1685 14.1685C13.3811 14.9559 12.3135 15.3988 11.2 15.4ZM16.3333 0H6.06667C4.45825 0.00182184 2.91622 0.641572 1.7789 1.7789C0.641572 2.91622 0.00182184 4.45825 0 6.06667V16.3333C0.00182184 17.9418 0.641572 19.4838 1.7789 20.6211C2.91622 21.7584 4.45825 22.3982 6.06667 22.4H16.3333C17.9418 22.3982 19.4838 21.7584 20.6211 20.6211C21.7584 19.4838 22.3982 17.9418 22.4 16.3333V6.06667C22.3982 4.45825 21.7584 2.91622 20.6211 1.7789C19.4838 0.641572 17.9418 0.00182184 16.3333 0ZM21.4667 16.3333C21.4651 17.6943 20.9238 18.9991 19.9614 19.9614C18.9991 20.9238 17.6943 21.4651 16.3333 21.4667H6.06667C4.7057 21.4651 3.40091 20.9238 2.43856 19.9614C1.4762 18.9991 0.934877 17.6943 0.933333 16.3333V6.06667C0.934877 4.7057 1.4762 3.40091 2.43856 2.43856C3.40091 1.4762 4.7057 0.934877 6.06667 0.933333H16.3333C17.6943 0.934877 18.9991 1.4762 19.9614 2.43856C20.9238 3.40091 21.4651 4.7057 21.4667 6.06667V16.3333ZM18.2 5.13333C18.2 5.31793 18.1453 5.49838 18.0427 5.65187C17.9401 5.80535 17.7944 5.92498 17.6238 5.99562C17.4533 6.06626 17.2656 6.08475 17.0846 6.04873C16.9035 6.01272 16.7372 5.92383 16.6067 5.7933C16.4762 5.66277 16.3873 5.49647 16.3513 5.31542C16.3153 5.13437 16.3337 4.94671 16.4044 4.77616C16.475 4.60562 16.5946 4.45985 16.7481 4.3573C16.9016 4.25474 17.0821 4.2 17.2667 4.2C17.5141 4.20031 17.7513 4.29874 17.9263 4.47371C18.1013 4.64867 18.1997 4.88589 18.2 5.13333Z"
@@ -427,48 +427,52 @@
                         </svg>
                     </div>
                 </div>
-                <div class="col-2 mt-24">
-                    <div class="c-flex align-end">
-                        <ul>
-                            <li class="fw-700 font-size-14 font-poppins">SERVICES</li>
-                            <li class="fw-400 font-size-12 font-poppins mt-11">About</li>
-                            <li class="fw-400 font-size-12 font-poppins mt-12">News</li>
-                            <li class="fw-400 font-size-12 font-poppins mt-12">ullamcorper</li>
-                            <li class="fw-400 font-size-12 font-poppins mt-12">Contact</li>
-                        </ul>
-                    </div>
-                    
-                </div>
-                <div class="col-2 mt-24">
-                    <ul class="c-flex align-center">
-                        <li class="fw-700 font-size-14 font-poppins">EVENTS</li>
-                        <li class="fw-400 font-size-12 font-poppins mt-11">ullamcorper</li>
-                        <li class="fw-400 font-size-12 font-poppins mt-12">ullamcorper</li>
-                        <li class="fw-400 font-size-12 font-poppins mt-12">ullamcorper</li>
-                        <li class="fw-400 font-size-12 font-poppins mt-12">ullamcorper</li>
-                    </ul>
-                </div>
-                <div class="col-3 mt-24">
-                    <p class="fw-700 font-size-14 font-poppins">GALLERY</p>
-                    <div class="row mt-10">
-                        <div class="col-4 mb-10 ">
-                            <img class="w-100 h-100" src="./assets/images/footer-1.png" alt="">
+                <div class="col-7 col-md-12">
+                    <div class="row">
+                        <div class="col-4 col-lg-6 mt-24 col-md-12">
+                            <div class="c-flex align-end align-md-center">
+                                <ul>
+                                    <li class="fw-700 font-size-14 font-poppins text-md-center">SERVICES</li>
+                                    <li class="fw-400 font-size-12 font-poppins mt-11 text-md-center">About</li>
+                                    <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">News</li>
+                                    <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">ullamcorper</li>
+                                    <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">Contact</li>
+                                </ul>
+                            </div>
+                        
                         </div>
-                        <div class="col-4 mb-10 ">
-                            <img class="w-100 h-100" src="./assets/images/footer-2.png" alt="">
+                        <div class="col-4 col-lg-6 mt-24 col-md-12">
+                            <ul class="c-flex align-center">
+                                <li class="fw-700 font-size-14 font-poppins text-md-center">EVENTS</li>
+                                <li class="fw-400 font-size-12 font-poppins mt-11 text-md-center">ullamcorper</li>
+                                <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">ullamcorper</li>
+                                <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">ullamcorper</li>
+                                <li class="fw-400 font-size-12 font-poppins mt-12 text-md-center">ullamcorper</li>
+                            </ul>
                         </div>
-                        <div class="col-4 mb-10 ">
-                            <img class="w-100 h-100" src="./assets/images/footer-3.png" alt="">
-                        </div>
-                        <div class="col-4 mb-10 ">
-                            <img class="w-100 h-100" src="./assets/images/footer-4.png" alt="">
-                        </div>
-                        <div class="col-4 mb-10 ">
-                            <img class="w-100 h-100" src="./assets/images/footer-5.png" alt="">
-                        </div>
-                        <div class="col-4 mb-10 relative">
-                            <img class="w-100 h-100" src="./assets/images/footer-6.png" alt="">
-                            <a href="#" class="fw-700 font-poppins font-size-12 text-img">SHOW MORE</a>
+                        <div class="col-4 col-lg-12 mt-24 col-md-12">
+                            <p class="fw-700 font-size-14 font-poppins">GALLERY</p>
+                            <div class="row mt-10">
+                                <div class="col-4 mb-10 ">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-1.png" alt="">
+                                </div>
+                                <div class="col-4 mb-10 ">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-2.png" alt="">
+                                </div>
+                                <div class="col-4 mb-10 ">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-3.png" alt="">
+                                </div>
+                                <div class="col-4 mb-10 ">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-4.png" alt="">
+                                </div>
+                                <div class="col-4 mb-10 ">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-5.png" alt="">
+                                </div>
+                                <div class="col-4 mb-10 relative">
+                                    <img class="w-100 h-100 img-scale" src="./assets/images/footer-6.png" alt="">
+                                    <a href="#" class="fw-700 font-poppins font-size-12 text-img text-scale">SHOW MORE</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
